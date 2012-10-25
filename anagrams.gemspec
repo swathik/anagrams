@@ -13,7 +13,6 @@ Gem::Specification.new do |s|
   s.rubygems_version = %q{1.6.2}
   s.summary = %q{Find a list of anagrams from the dictionary}
   s.add_dependency('color_text', '>= 0.0.3')
-  s.add_dependency('set')
   
   if s.respond_to? :specification_version then
     s.specification_version = 3
